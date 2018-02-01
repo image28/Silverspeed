@@ -1,0 +1,1 @@
+int levelComplete(struct container *screen, int *pos, int *count, int money, int lives, int kills, int startLives, int enemiesTotal, GLuint *textures, int *texW, int *texH, GLuint *fontTexture, int *fontW, int *fontH);

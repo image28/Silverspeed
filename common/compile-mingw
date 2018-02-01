@@ -1,0 +1,13 @@
+x86_64-w64-mingw32-c++ -I/usr/x86_64-w64-mingw32/include/ -c src/init.cpp
+x86_64-w64-mingw32-c++ -I/usr/x86_64-w64-mingw32/include/ -c src/timer.cpp
+x86_64-w64-mingw32-c++ -I/usr/x86_64-w64-mingw32/include/ -c src/collision.cpp
+x86_64-w64-mingw32-c++ -I/usr/x86_64-w64-mingw32/include/ -c src/shuffle.cpp
+x86_64-w64-mingw32-c++ -I/usr/x86_64-w64-mingw32/include/ -c src/generator.cpp
+x86_64-w64-mingw32-c++ -I/usr/x86_64-w64-mingw32/include/ -c src/draw.cpp
+x86_64-w64-mingw32-c++ -I/usr/x86_64-w64-mingw32/include/ -c src/path.cpp
+x86_64-w64-mingw32-c++ -I/usr/x86_64-w64-mingw32/include/ -c src/texture.cpp
+x86_64-w64-mingw32-c++ -I/usr/x86_64-w64-mingw32/include/ -c src/menu.cpp
+x86_64-w64-mingw32-c++ -I/usr/x86_64-w64-mingw32/include/ -c src/screenshot.cpp
+x86_64-w64-mingw32-c++ -I/usr/x86_64-w64-mingw32/include/ -c src/sound.cpp
+x86_64-w64-mingw32-c++ -I/usr/x86_64-w64-mingw32/include/ -c src/config.cpp
+mv *.o lib

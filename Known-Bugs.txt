@@ -1,0 +1,4 @@
+Lag in sound ( linux )
+Skype messed up game in linux
+Screenshot in linux plays up with gnome.
+On some windows systems does not restore system resolution 

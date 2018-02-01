@@ -1,0 +1,6 @@
+cd common
+make
+cd ..
+g++ -O2 -g engine.cpp -I/usr/include -I/usr/include/SDL -L/usr/lib/i386-linux-gnu -L/usr/lib -D_GNU_SOURCE=1 -D_REENTRANT common/lib/init.o common/lib/timer.o common/lib/draw.o common/lib/collision.o common/lib/shuffle.o common/lib/generator.o common/lib/path.o common/lib/texture.o common/lib/menu.o common/lib/sound.o common/lib/config.o -o silverspeed-linux -lSDL -lGL -lGLU -lSDL_image -lSDL_mixer -lSDL_ttf
+
+# -lpng common/lib/screenshot.o
